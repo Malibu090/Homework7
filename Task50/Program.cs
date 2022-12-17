@@ -7,22 +7,22 @@
 // 17 -> такого числа в массиве нет
 const int leftRange = 0;
 const int rightRange = 10;
-const int rows = 3;
-const int columns = 4;
+// const int rows = 3;
+// const int columns = 4;
 
 // ввод размера массива
-// int rows = EnterNumber("Input number of rows: ");
-// int columns = EnterNumber("Input number of columns: ");
+int rows = EnterNumber("Input number of rows: ");
+int columns = EnterNumber("Input number of columns: ");
 
 // ввод индексов элемента i и j
 int firstIndex = EnterNumber("Input first index: ");
 int secondIndex = EnterNumber("Input second index: ");
 
-void OutputFindElementValue(int[,] array)
+void OutputFindElementValue(int[,] arr)
 {
     if (firstIndex < rows & secondIndex < columns)
     {
-        Console.WriteLine($"Element value[{firstIndex},{secondIndex}]: " + array[firstIndex, secondIndex]);
+        Console.WriteLine($"Element value[{firstIndex},{secondIndex}]: " + arr[firstIndex, secondIndex]);
     }
     else
     {

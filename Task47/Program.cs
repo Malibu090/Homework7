@@ -41,9 +41,10 @@ int EnterNumber(string str)
 }
 
 // ввод чисел m и n
-
-int m = EnterNumber("Введите число m: ");
-int n = EnterNumber("Введите число n: ");
+// int m = 3;
+// int n = 4;
+int m = EnterNumber("Input number of rows: ");
+int n = EnterNumber("Input number of columns: ");
 
 // создаем массив и заполняем его
 
