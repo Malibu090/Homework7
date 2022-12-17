@@ -26,7 +26,7 @@ double[,] CreateArrayWithRealNumbers(int rows, int columns, int leftRange, int r
     {
         for (int j = 0; j < columns; j++)
         {
-            array[i, j] = Math.Round(new Random().Next(leftRange, rightRange) + new Random().NextDouble(), 2); 
+            array[i, j] = Math.Round(new Random().Next(leftRange, rightRange) + new Random().NextDouble(), 2);
 
         }
     }
