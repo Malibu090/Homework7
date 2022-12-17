@@ -25,7 +25,7 @@ void OutputArithmeticMeanColumn(int[,] matrix)
         }
         double arg = Math.Round(sum / matrix.GetLength(0), 2);
 
-        Console.Write(arg + "|");
+        Console.Write($"|{arg}|");
     }
 }
 
